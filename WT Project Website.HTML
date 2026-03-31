@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advocate Name | Legal Services</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            color: #1a2a3a;
+        }
+        a {
+            text-decoration: none;
+            color: #d4af37; /* Professional Gold */
+        }
+        
+        /* Navigation Bar */
+        header {
+            background-color: #1a2a3a; /* Navy Blue */
+            color: white;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .nav-container {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            color: white;
+            font-weight: 500;
+        }
+        .nav-links a:hover {
+            color: #d4af37;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 4rem 2rem;
+            border-bottom: 5px solid #d4af37;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #555;
+            max-width: 600px;
+            margin: 0 auto 20px auto;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #d4af37;
+            color: #1a2a3a;
+            padding: 10px 20px;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        .btn:hover {
+            background-color: #c5a028;
+        }
+
+        /* Section Layout */
+        .section {
+            padding: 3rem 10%;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* About Section */
+        .about-content {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+        .about-text {
+            flex: 1;
+        }
+        .about-image {
+            flex: 1;
+            background-color: #ffffff;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff8f8;
+            border-radius: 8px;
+        }
+
+        /* Practice Areas */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .service-card {
+            background: white;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            border-color: #d4af37;
+        }
+
+        /* Contact Section */
+        .contact-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            background-color: #1a2a3a;
+            color: white;
+            padding: 2rem;
+            border-radius: 8px;
+        }
+        .contact-info {
+            flex: 1;
+            min-width: 250px;
+        }
+        .contact-info h3 {
+            color: #d4af37;
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #111;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo">Adv.Umesh Rajaram Patil</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#practice-areas">Practice Areas</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Fighting for Your Rights and Justice</h1>
+        <p>Over 28 years of dedicated legal experience providing strategic, ethical, and results-driven representation.</p>
+        <a href="#contact" class="btn">Request a Consultation</a>
+    </section>
+
+    <section id="about" class="section">
+        <h2 class="section-title">About the Advocate</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="Picture.jpeg" alt="My Image" style="width: 300px; height: 100%; object-fit: cover;">
+            </div>
+            <div class="about-text">
+                <h3>Adv.Umesh Rajaram Patil B.A. L.L.B</h3>
+                <p>Advocate Umesh Rajaram Patil is a highly respected legal professional with a passion for delivering justice. Enrolled with the Bar Council of Maharashtra, they have successfully represented clients in the High Court and District Courts.</p>
+                <p><strong>Qualifications:</strong></p>
+                <ul>
+                    <li>B.A. LL.B. from Shahaji Law College, Kolhapur</li>
+                    <li>Member of the  Bar Association</li>                                
+                </ul>
+                <p>Known for a meticulous approach and fierce advocacy, Umesh Rajarm Patil ensures that every client receives personalized attention and a robust legal strategy.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="practice-areas" class="section" style="background-color: #f9f9f9;">
+        <h2 class="section-title">Practice Areas</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Civil Litigation</h3>
+                <p>Handling property disputes, breach of contract, injunctions, and recovery suits with strategic precision.</p>
+            </div>
+            <div class="service-card">
+                <h3>Criminal Defense</h3>
+                <p>Robust defense in matters of bail, trials, appeals, and white-collar crimes across all court levels.</p>
+            </div>
+            <div class="service-card">
+                <h3>Family Law</h3>
+                <p>Compassionate legal support for divorce, child custody, alimony, and domestic violence cases.</p>
+            </div>
+            <div class="service-card">
+                <h3>Corporate Law</h3>
+                <p>Advising businesses on compliance, drafting contracts, and resolving commercial disputes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Office Location</h3>
+                <p>Bawadekar complex, Back side of the S.T.stand<br>
+                Peth Vadgoan, Maharashtra, India - 416112</p>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Details</h3>
+                <p><strong>Phone:</strong> +91 9823399404</p>
+                <p><strong>Email:</strong> urpatiladv@gmail.com</p>
+            </div>
+            <div class="contact-info">
+                <h3>Office Hours</h3>
+                <p>Monday - Friday: 10:00 AM - 7:00 PM<br>
+                Saturday: 10:00 AM - 2:00 PM<br>
+                Sunday: Closed</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Advocate Umesh Rajaram Patil. All Rights Reserved.</p>
+        <p style="font-size: 0.8rem;">Disclaimer: As per the rules of the Bar Council of India, we are not permitted to solicit work and advertise. This website is meant solely for the purpose of providing information.</p>
+    </footer>
+
+</body>
+</html>
